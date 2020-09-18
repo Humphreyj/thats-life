@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(66, 20px);
+    background-color: black;
+    padding: 1%;
+
+    .cell {
+        box-sizing: border-box;
+        width:20px;
+        height: 20px;
+        border:1px solid black;
+        border-radius: 4px;
+    }
+
+    .alive {
+        background-color: white;
+    }
+    .dead {
+        background-color: green;
+    }
+}

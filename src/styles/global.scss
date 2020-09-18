@@ -1,0 +1,11 @@
+@import './about/about.scss';
+@import './controls/controls.scss';
+@import './grid/cell.scss';
+
+@import './variables.scss';
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
