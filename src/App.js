@@ -1,4 +1,4 @@
-import React,{useState,useEffect,useCallback,useContext,useRef} from 'react';
+import React,{useState,useCallback,useRef} from 'react';
 import About from './components/about/About';
 import Controls from './components/controls/Controls';
 import Grid from './components/grid/Grid';
@@ -96,6 +96,7 @@ const runSimulation = useCallback(() => {
      
   setGenerations( generations => generations +=1)
   setTimeout(runSimulation,100)
+  // eslint-disable-next-line
 },[])
 
   return (

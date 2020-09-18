@@ -1,4 +1,4 @@
-import React,{useState,useEffect,useCallback,useContext,useRef} from 'react';
+import React,{useEffect,useContext} from 'react';
 import LifeContext from '../../contexts/LifeContext';
 
 import produce from 'immer';
@@ -22,6 +22,7 @@ const Grid = () => {
             )
         }
         setGrid(rows);
+        // eslint-disable-next-line
     },[])
 
     const changeSquare = (i,k) => {
