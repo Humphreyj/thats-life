@@ -31,22 +31,28 @@
         }
     }
     .alive-static {
-        background-color: #c90808;
+        background-color: #29ea02;
     }
 
     .alive {
         
-        animation: pulse .3s infinite;
+        animation: pulse 2s infinite;
     }
     @keyframes pulse {
         0% {
-            background-color: #c90808;
+            background-color: #1826bc;
         }
         50% {
-            background-color: #cc5608;
+            background-color: #c90808;
+            
+        }
+        75% {
+            background-color: #00b211;
+            
         }
         100% {
-            background-color: red;
+            
+            background-color: #f215c9;
         }
     }
     .dead {

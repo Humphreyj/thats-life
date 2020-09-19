@@ -11,6 +11,9 @@
     background-color: black;
     color: white;
     height: 100%;
+    @media(min-width: 2000px) {
+        height: 100vh;
+    }
     
     
 
