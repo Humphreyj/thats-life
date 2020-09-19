@@ -16,7 +16,7 @@ const About = () => {
             </ul>
             </div>
             {/* RULES */}
-            <p className="description">The first generation is created by applying the above rules to the initial configuration of the grid. Deaths and births occur simultaneously and the next generations and created applying the rules to the new configuration.</p>
+            <p className="description">The first generation is created by applying the above rules to the initial configuration of the grid. Deaths and births occur simultaneously and the next generations are created applying the rules to the new configuration.</p>
         </div>
     );
 }

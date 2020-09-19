@@ -1,24 +1,32 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(66, 20px);
+    grid-template-columns: repeat(66, 13px);
     background-color: black;
     padding: 1%;
     @media(max-width: 500px) {
         grid-template-columns: repeat(66, 13px);
         transform: rotate(90deg);
-        margin-top: 250px;
+        margin-top: 200px;
         
+    }
+    @media(max-width: 800px) {
+        grid-template-columns: repeat(66, 10px);
+         
     }
 
     .cell {
         box-sizing: border-box;
-        width:20px;
-        height: 20px;
+        width:13px;
+        height: 13px;
         border:1px solid black;
         border-radius: 4px;
         @media(max-width: 500px) {
             width: 13px;
             height: 13px;
+        }
+        @media(max-width: 800px) {
+            width: 10px;
+            height: 10px;
         }
     }
 

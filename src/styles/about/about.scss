@@ -11,13 +11,16 @@ $description-font: 'Roboto', sans-serif;
 
 
     .about-title {
+        text-align: center;
         font-family: $title-font;
-        font-size: 2.5em;
+        font-size: 2.3em;
+        padding-top: 10px;
+        width: 90%;
         margin: 0 auto;
     }
 
     .description {
-       
+       width: 80%;
         font-family: $description-font;
         font-size: 1.4em;
         text-align: center;

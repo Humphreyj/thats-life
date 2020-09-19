@@ -3,14 +3,20 @@ $button-text:'Signika Negative', sans-serif;
 .control-box {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    button {
-        border-radius: 4px;
-        margin: 10px;
-        font-size: 1.3em;
-        font-family: $button-text;
-        font-weight: bold;
+    flex-direction: column;
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        button {
+            border-radius: 4px;
+            margin: 10px;
+            font-size: 1.3em;
+            font-family: $button-text;
+            font-weight: bold;
+        }
     }
+    
 
     .gen {
         font-size: 1.3em;

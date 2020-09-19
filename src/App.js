@@ -2,6 +2,7 @@ import React,{useState,useCallback,useRef} from 'react';
 import About from './components/about/About';
 import Controls from './components/controls/Controls';
 import Grid from './components/grid/Grid';
+import Memorial from './components/about/Memorial';
 import produce from 'immer';
 
 import LifeContext from './contexts/LifeContext';
@@ -104,8 +105,8 @@ const runSimulation = useCallback(() => {
       <div className="App">
       <About />
       <Controls />
-      <p className='gen'>Generations: {generations}</p>
       <Grid />
+      <Memorial />
     </div>
   </LifeContext.Provider>
     
