@@ -39,7 +39,7 @@ function App() {
 ]
 
 const [grid, setGrid] =useState(Array.from({length: numRows}).map(() => Array.from({length: numCols}).fill(0)))
-    //creates an array based on number of rows, then at each index creates a ray with length of columns 
+    //creates an array based on number of rows, then at each index creates an array with length of columns 
 
 
 const clearGrid = () => {
@@ -50,7 +50,6 @@ const clearGrid = () => {
   setGenerations(generations => 0)
   return rows;
 }
-
 
 const setRandomGrid = () => {
   const rows = [];

@@ -1,11 +1,26 @@
 .memorial-container {
-    margin-top: 200px;
     text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Contrail One', cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 60%;
+    border: 2px solid black;
+    margin-top: 40px;
+    border-radius: 4px;
+    @media(max-width: 500px) {
+        margin-top: 220px;
+        width: 90%
+        
+    }
+    
     .john {
-        text-align: center;
+        font-size: 1.3em;
     }
     .obituary {
         width: 85%;
         margin: 0 auto;
+        font-weight: bold;
+        font-family:'Signika Negative', sans-serif;
     }
 }

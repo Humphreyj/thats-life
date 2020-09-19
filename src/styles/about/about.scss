@@ -34,15 +34,29 @@ $description-font: 'Roboto', sans-serif;
         .rules-title {
             font-family: $title-font;
             text-align: center;
-            font-size: 1.4em;
-            margin: 0;
+            font-size: 1.5em;
+            margin: 10px 0;
+            border: 1px solid black;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
         }
-        ul {
+        .rules-list {
+            
             li {
                 font-family: $description-font;
                 margin: 5px 0;
                 font-size: 1.2em;
             }
+        }
+        .show {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .hide {
+            display: none;
         }
     }
 
