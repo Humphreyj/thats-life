@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className='about-container'>
             <h1 className='about-title'>John Conway's game of life</h1>
-            <p className="description">The 'Game of Life' is not actually a game, but a 'cellular automation' invented by John Conway in 1970. Each cell in a grid represents a biological cell, and the cells will live or die based on a set of mathematical rules. A player interacts with the game only at the beginning by setting an inital configuration of the grid and then observing the outcome.</p>
+            <p className="description">The 'Game of Life' is not actually a game, but a 'cellular automation' invented by John Conway in 1970. Each cell in a grid represents a biological cell, and the cells will live or die based on a set of mathematical rules. A player interacts with the game at the beginning by setting an inital configuration of the grid and then observing the outcome.</p>
 
             <div className="rules">
                 <h4 className="rules-title">The Rules!</h4>

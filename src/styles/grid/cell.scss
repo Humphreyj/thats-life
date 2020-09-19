@@ -3,6 +3,12 @@
     grid-template-columns: repeat(66, 20px);
     background-color: black;
     padding: 1%;
+    @media(max-width: 500px) {
+        grid-template-columns: repeat(66, 13px);
+        transform: rotate(90deg);
+        margin-top: 250px;
+        
+    }
 
     .cell {
         box-sizing: border-box;
@@ -10,6 +16,10 @@
         height: 20px;
         border:1px solid black;
         border-radius: 4px;
+        @media(max-width: 500px) {
+            width: 13px;
+            height: 13px;
+        }
     }
 
     .alive {

@@ -17,7 +17,7 @@ const Controls = () => {
             disabled={running ? true : false} 
             onClick={()=> setGrid(setRandomGrid())}
             className="random">Random</button>
-            <p className='gen'>Generations: {generations}</p>
+           
         </div>
     );
 }

@@ -104,6 +104,7 @@ const runSimulation = useCallback(() => {
       <div className="App">
       <About />
       <Controls />
+      <p className='gen'>Generations: {generations}</p>
       <Grid />
     </div>
   </LifeContext.Provider>
