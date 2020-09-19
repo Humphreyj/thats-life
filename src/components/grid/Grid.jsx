@@ -47,7 +47,7 @@ const Grid = () => {
                 key={`${i}-${k}`}
                 //this will give a unique key for items in nested maps
                 //Its ok to use the index as they key because we don't intend to shift anything.
-                className={grid[i][k] ? "cell alive" : "cell dead"}>
+                className={grid[i][k] ? running? "cell alive": "cell alive-static" : "cell dead"}>
                     {/* if the cell value is 0 it will be black */}
                 </div> ))
             }
