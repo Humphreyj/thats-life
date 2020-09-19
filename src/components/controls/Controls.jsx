@@ -2,7 +2,7 @@ import React,{useContext} from 'react';
 import LifeContext from '../../contexts/LifeContext';
 
 const Controls = () => {
-    const {running,toggleRunning, generations,setGrid,clearGrid,setRandomGrid} = useContext(LifeContext)
+    const {running,toggleRunning,setGrid,clearGrid,setRandomGrid} = useContext(LifeContext)
     
     return (
         <div className='control-box'>
