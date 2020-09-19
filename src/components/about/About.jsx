@@ -12,7 +12,7 @@ const About = () => {
                 <h4 
                 className="rules-title"
                 onClick={()=> setShowRules(!showRules)}
-                >The Rules!</h4>
+                >{showRules? "Hide Rules" : "Show Rules"}</h4>
             <ul className={showRules? 'rules-list show' : 'rules-list hide'}>
                 <li className="rule"> Any live cell with fewer than two live neighbors dies, as if by underpopulation</li>
                 <li className="rule">Any live cell with two or three live neighbors lives on to the next generation.</li>
