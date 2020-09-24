@@ -3,7 +3,7 @@
     grid-template-columns: repeat(66, 13px);
     background-color: black;
     padding: 1%;
-    @media(max-width: 500px) {
+    @media(max-width: 600px) {
         grid-template-columns: repeat(66, 15px);
         transform: rotate(90deg);
         margin-top: 200px;
@@ -13,6 +13,9 @@
         grid-template-columns: repeat(66, 10px);
          
     }
+    @media(min-width: 2000px) {
+        grid-template-columns: repeat(66, 25px);
+    }
 
     .cell {
         box-sizing: border-box;
@@ -20,7 +23,7 @@
         height: 13px;
         border:1px solid black;
         border-radius: 4px;
-        transition: all .1s ease;
+       
         @media(max-width: 500px) {
             width: 15px;
             height: 15px;
@@ -28,6 +31,10 @@
         @media(max-width: 800px) {
             width: 10px;
             height: 10px;
+        }
+        @media(min-width: 2000px) {
+            height: 25px;
+            width: 25px;
         }
     }
     .alive-static {
