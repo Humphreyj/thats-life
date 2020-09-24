@@ -7,7 +7,7 @@ import produce from 'immer';
 const Grid = () => {
     let numRows = 25
     let numCols = 66
-    const {grid,setGrid,running, makeSpaceShip} = useContext(LifeContext)
+    const {grid,setGrid,running} = useContext(LifeContext)
 
     
 
